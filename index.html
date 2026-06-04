@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 1px solid black;
+            width: 250px;
+            height: 250px;
+            /* Radial */
+            
+            /*Conic */
+        }
+        .box1{
+            background-image: radial-gradient(red,yellow);
+
+        }
+        .box2{
+            background-image: radial-gradient(at left ,red,yellow);
+                                                /* top,bottom,right */
+
+        }
+        .box3{
+            background-image: radial-gradient(red 0%,red 40%,yellow 40%,yellow 100%);
+        }
+        
+        .box4{
+            /* background-image: radial-gradient(at left,red 0%,red 40%,yellow 40%,yellow 100%); */
+            background-image: radial-gradient(circle at left,red 0%,red 40%,yellow 40%,yellow 100%);
+        }
+        .box5{
+            
+            background-image: radial-gradient(at 50px 50px,red,yellow); 
+        }
+        .box6{
+            
+            background-image: radial-gradient(farthest-corner at 50px 50px,red,yellow); 
+        }
+        .box7{
+            
+            background-image: radial-gradient(closest-corner at 50px 50px,red,yellow); 
+        }
+        .box8{
+            
+            background-image: radial-gradient(farthest-side at 50px 50px,red,yellow); 
+        }
+        .box9{
+            
+            background-image: radial-gradient(closest-side at 50px 50px,red,yellow); 
+        }
+        .box10{
+            background-image: repeating-radial-gradient(red 0px,red 10px,yellow 10px,yellow 20px);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">Box1</div>
+    <div class="box2">Box2</div>
+    <div class="box3">Box3</div>
+    <div class="box4">Box4</div>
+    <div class="box5">Box5</div>
+    <div class="box6">Box6</div>
+    <div class="box7">Box7</div>
+    <div class="box8">Box8</div>
+    <div class="box9">Box9</div>
+    <div class="box10">Box10</div>
+</body>
+</html>
