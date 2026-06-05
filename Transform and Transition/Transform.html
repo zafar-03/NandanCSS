@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: cursive;
+            font-size: 32px;
+        }
+        section{
+            background-color: darkblue;
+            width: 300px;
+            height: 300px;
+            border: 5px solid darkred;
+            margin:20px auto;
+        }
+        div{
+            background-color: rgba(144, 238, 144, 0.478);
+            width: 100%;
+            height: 100%;
+            transition: all 1s;
+
+        }
+        .translate:hover{
+            /* px % */
+                                /* X   Y */
+            transform: translate(50px,100px);
+            /* transform: translateX(50px); */
+            /* transform: translateX(-50px); */
+
+            /* transform: translateY(50px); */
+            /* transform: translateY(-50px); */
+
+        }
+        .rotate:hover{
+            /* deg */
+            transform: rotate(30deg);
+            /* transform: rotateX(30deg); */
+            /* transform: rotateX(180deg); */
+
+            /* transform: rotateY(90deg); */
+
+        }
+        .scale:hover{
+            /* number */
+            /* transform: scale(2,0.5); */
+            /* transform: scale(2); */
+            /* transform: scaleX(.5); */
+            /* transform: scaleY(2); */
+
+        }
+        .skew:hover{
+            /* deg */
+            /* transform: skew(30deg); */
+            /* transform: skew(30deg,60deg); */
+
+            /* transform: skewX(30deg); */
+            /* transform: skewY(30deg); */
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Transform Property : translate, rotate, scale, skew</h1>
+
+    <section>
+        <div class="translate">translate</div>
+    </section>
+    <section>
+        <div class="rotate">rotate</div>
+    </section>
+    <section>
+        <div class="scale">scale</div>
+    </section>
+    <section>
+        <div class="skew">skew</div>
+    </section>
+</body>
+
+</html>
